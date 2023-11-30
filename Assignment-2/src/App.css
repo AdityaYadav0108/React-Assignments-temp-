@@ -1,3 +1,23 @@
-li{
+body{
+  background: #ccd5ae;
+}
+.container{
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 50px;
+}
+h1{
+  text-decoration: underline;
+  font-size: 40px;
+}
+.item{
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #faedcd;
+  padding: 20px;
+  border-radius: 20px;
+}
+li {
   text-align: left;
 }
